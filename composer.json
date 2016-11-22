@@ -1,0 +1,10 @@
+{
+    "require": {
+        "facebook/webdriver": "^1.1",
+        "symfony/yaml": "^3.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit-selenium": "^2.0"
+    }
+
+}

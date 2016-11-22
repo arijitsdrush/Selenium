@@ -1,0 +1,5 @@
+Feature Goal
+==========================
+
+In future, our goal will be to reduce individual process file coding. Our approch will be to use OOPS concept & to able to create a new individual process file within 7-8 lines. 
+To reduce the setup function size within every individual process file by putting maximum setup settings within engine.php file.

@@ -1,0 +1,5 @@
+1.) Why we are adding the numeric value at the beginning of every new line under rules defined in representer of a site yml file?
+
+Ans. Within the yml file, if we use same rule key for more than one time, then the second time rule key will simply skips. To prevent this scenario, every single rule key should be unique. We can make every single rule key unique by various methods. Our primary goal is to make an unique key for every single rule written under rule. By adding the numeric value at the beginning of every new line makes every single rule key unique & we can also record our every rule steps count. For that reason we chose to add the numeric value at the beginning of every new line under rules defined in representer of a site yml file.
+
+

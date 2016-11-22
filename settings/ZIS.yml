@@ -1,0 +1,226 @@
+'dev':
+  url: 'https://dev.zacksinvest.com/'
+'stage':
+  url: 'https://stage.zacksinvest.com/'
+'prod':
+  url: 'https://zacksinvest.com/'
+'issuer_register_rule' :
+  
+  # Go to Home Page	
+  0_url : '/'
+
+
+  # Go to Log In or Register Page
+  1_url : '/login-register'
+
+
+  # Click on Register as Issuer
+  2_xpath_click : '//div[@id=(s-q)block-block-44(s-q)]/p[5]/a'
+
+
+  # Select Type of Issuer
+  3_xpath_submit : '//input[@id=(s-q)edit-submit(s-q)]'
+
+  4_xpath_click : '//input[@id=(s-q)edit-issuer-type-4(s-q)]'
+  5_select_id_option: 'edit-field-reg-a-offering(sep)_none'
+  6_xpath_submit : '//input[@id=(s-q)edit-submit(s-q)]'
+
+  7_xpath_click : '//input[@id=(s-q)edit-issuer-type-4(s-q)]'
+  8_select_id_option: 'edit-field-reg-a-offering(sep)1'
+  9_xpath_submit : '//input[@id=(s-q)edit-submit(s-q)]'
+
+  10_xpath_click : '//input[@id=(s-q)edit-issuer-type-5(s-q)]'
+  11_select_id_option: 'edit-field-which-state-is-your-offeri(sep)_none'
+  12_xpath_submit : '//input[@id=(s-q)edit-submit(s-q)]'
+
+  13_xpath_click : '//input[@id=(s-q)edit-issuer-type-5(s-q)]'
+  14_select_id_option: 'edit-field-which-state-is-your-offeri(sep)IL'
+  15_xpath_submit : '//input[@id=(s-q)edit-submit(s-q)]'
+
+  16_xpath_click : '//input[@id=(s-q)edit-issuer-type-3(s-q)]'
+  17_xpath_submit : '//input[@id=(s-q)edit-submit(s-q)]'
+
+
+  # Give User Chance To Enter Captcha in web page, then Get User Input from Console
+  18_captcha: null
+
+
+  # Blank Form Submission
+  19_xpath_submit : '//input[@id=(s-q)edit-submit(s-q)]'
+
+
+  # Put value at First Name at Issuer Registration
+  20_xpath_value : '//input[@id=(s-q)edit-fname(s-q)](sep) '
+  21_xpath_submit : '//input[@id=(s-q)edit-submit(s-q)]'
+
+  22_xpath_clear : '//input[@id=(s-q)edit-fname(s-q)]'
+  23_xpath_value : '//input[@id=(s-q)edit-fname(s-q)](sep)John'
+  24_xpath_submit : '//input[@id=(s-q)edit-submit(s-q)]'
+
+
+  # Put value at Last Name at Issuer Registration
+  25_xpath_value : '//input[@id=(s-q)edit-lname(s-q)](sep) '
+  26_xpath_submit : '//input[@id=(s-q)edit-submit(s-q)]'
+
+  27_xpath_clear : '//input[@id=(s-q)edit-lname(s-q)]'
+  28_xpath_value : '//input[@id=(s-q)edit-lname(s-q)](sep)Doe'
+  29_xpath_submit : '//input[@id=(s-q)edit-submit(s-q)]'
+
+
+  # Put value at E-mail Address at Issuer Registration
+  30_xpath_value : '//input[@id=(s-q)edit-email(s-q)](sep)a@a'
+  31_xpath_submit : '//input[@id=(s-q)edit-submit(s-q)]'
+
+  32_xpath_clear : '//input[@id=(s-q)edit-email(s-q)]'
+  33_xpath_value : '//input[@id=(s-q)edit-email(s-q)](sep)a@@'
+  34_xpath_submit : '//input[@id=(s-q)edit-submit(s-q)]'
+
+  35_xpath_clear : '//input[@id=(s-q)edit-email(s-q)]'
+  36_xpath_value : '//input[@id=(s-q)edit-email(s-q)](sep)a@a.c@.com'
+  37_xpath_submit : '//input[@id=(s-q)edit-submit(s-q)]'
+
+  38_xpath_clear : '//input[@id=(s-q)edit-email(s-q)]'
+  39_xpath_value : '//input[@id=(s-q)edit-email(s-q)](sep)drupaldev@zacks.com'
+  40_xpath_submit : '//input[@id=(s-q)edit-submit(s-q)]'
+
+  41_xpath_clear : '//input[@id=(s-q)edit-email(s-q)]'
+  42_xpath_value : '//input[@id=(s-q)edit-email(s-q)](sep)zacksibtestin@gmail.com'
+  43_xpath_submit : '//input[@id=(s-q)edit-submit(s-q)]'
+
+
+  # Put value at Phone at Issuer Registration
+  44_xpath_value : '//input[@id=(s-q)issuer-phone(s-q)](sep)1'
+  45_xpath_submit : '//input[@id=(s-q)edit-submit(s-q)]'
+
+  46_xpath_clear : '//input[@id=(s-q)issuer-phone(s-q)]'
+  47_xpath_value : '//input[@id=(s-q)issuer-phone(s-q)](sep)123456789'
+  48_xpath_submit : '//input[@id=(s-q)edit-submit(s-q)]'
+
+  49_xpath_clear : '//input[@id=(s-q)issuer-phone(s-q)]'
+  50_xpath_value : '//input[@id=(s-q)issuer-phone(s-q)](sep)12345678912'
+  51_xpath_submit : '//input[@id=(s-q)edit-submit(s-q)]'
+
+  52_xpath_clear : '//input[@id=(s-q)issuer-phone(s-q)]'
+  53_xpath_value : '//input[@id=(s-q)issuer-phone(s-q)](sep)1234567890'
+  54_xpath_submit : '//input[@id=(s-q)edit-submit(s-q)]'
+
+
+  # Put value at Country at Issuer Registration
+  55_select_id_option: 'country-change(sep)US'
+  56_xpath_submit : '//input[@id=(s-q)edit-submit(s-q)]'
+
+
+  # Put value at Address at Issuer Registration
+  57_xpath_value : '//input[@id=(s-q)edit-address(s-q)](sep) '
+  58_xpath_submit : '//input[@id=(s-q)edit-submit(s-q)]'
+
+  59_xpath_clear : '//input[@id=(s-q)edit-address(s-q)]'
+  60_xpath_value : '//input[@id=(s-q)edit-address(s-q)](sep)Chicago'
+  61_xpath_submit : '//input[@id=(s-q)edit-submit(s-q)]'
+
+
+  # Put value at City at Issuer Registration
+  62_xpath_value : '//input[@id=(s-q)edit-city(s-q)](sep) '
+  63_xpath_submit : '//input[@id=(s-q)edit-submit(s-q)]'
+
+  64_xpath_clear : '//input[@id=(s-q)edit-city(s-q)]'
+  65_xpath_value : '//input[@id=(s-q)edit-city(s-q)](sep)Chicago'
+  66_xpath_submit : '//input[@id=(s-q)edit-submit(s-q)]'
+
+
+  # Put value at State/Providence at Issuer Registration
+  67_select_id_option: 'state-change(sep)IL'
+  68_xpath_submit : '//input[@id=(s-q)edit-submit(s-q)]'
+
+
+  # Put value at Zip Code at Issuer Registration
+  69_xpath_value : '//input[@id=(s-q)edit-zip(s-q)](sep)1'
+  70_xpath_submit : '//input[@id=(s-q)edit-submit(s-q)]'
+
+  71_xpath_clear : '//input[@id=(s-q)edit-zip(s-q)]'
+  72_xpath_value : '//input[@id=(s-q)edit-zip(s-q)](sep)1234'
+  73_xpath_submit : '//input[@id=(s-q)edit-submit(s-q)]'
+
+  74_xpath_clear : '//input[@id=(s-q)edit-zip(s-q)]'
+  75_xpath_value : '//input[@id=(s-q)edit-zip(s-q)](sep)12345'
+  76_xpath_submit : '//input[@id=(s-q)edit-submit(s-q)]'
+
+
+  # Put value at Company Name at Issuer Registration
+  77_xpath_value : '//input[@id=(s-q)edit-c-name(s-q)](sep)Test Company'
+  78_xpath_submit : '//input[@id=(s-q)edit-submit(s-q)]'
+
+
+  # Put value at Company/General Partner Website at Issuer Registration
+  79_xpath_value : '//input[@id=(s-q)edit-general-website(s-q)](sep)test.com'
+  80_xpath_submit : '//input[@id=(s-q)edit-submit(s-q)]'
+
+
+  # Put value at Company Telephone at Issuer Registration
+  81_xpath_value : '//input[@id=(s-q)edit-c-phone(s-q)](sep)1'
+  82_xpath_submit : '//input[@id=(s-q)edit-submit(s-q)]'
+
+  83_xpath_clear : '//input[@id=(s-q)edit-c-phone(s-q)]'
+  84_xpath_value : '//input[@id=(s-q)edit-c-phone(s-q)](sep)123456789'
+  85_xpath_submit : '//input[@id=(s-q)edit-submit(s-q)]'
+
+  86_xpath_clear : '//input[@id=(s-q)edit-c-phone(s-q)]'
+  87_xpath_value : '//input[@id=(s-q)edit-c-phone(s-q)](sep)12345678912'
+  88_xpath_submit : '//input[@id=(s-q)edit-submit(s-q)]'
+
+  89_xpath_clear : '//input[@id=(s-q)edit-c-phone(s-q)]'
+  90_xpath_value : '//input[@id=(s-q)edit-c-phone(s-q)](sep)1234567890'
+  91_xpath_submit : '//input[@id=(s-q)edit-submit(s-q)]'
+
+
+  # Put value at Are you working with an Investment Banker/ Broker on your Reg D offering now ? at Issuer Registration
+  92_xpath_click : '//input[@id=(s-q)edit-ib-or-broker-0(s-q)]'
+  93_xpath_submit : '//input[@id=(s-q)edit-submit(s-q)]'
+
+
+  # Put value at Username at Issuer Registration
+  94_xpath_value : '//input[@id=(s-q)edit-username(s-q)](sep) '
+  95_xpath_submit : '//input[@id=(s-q)edit-submit(s-q)]'
+
+  96_xpath_value : '//input[@id=(s-q)edit-username(s-q)](sep)A'
+  97_xpath_submit : '//input[@id=(s-q)edit-submit(s-q)]'
+
+  98_xpath_clear : '//input[@id=(s-q)edit-username(s-q)]'
+  99_xpath_value : '//input[@id=(s-q)edit-username(s-q)](sep)zis_tester_issuer'
+  100_xpath_submit : '//input[@id=(s-q)edit-submit(s-q)]'
+
+
+  # Put value at Password & Confirm Password at Issuer Registration
+  101_xpath_value : '//input[@id=(s-q)edit-pass-pass1(s-q)](sep) '
+  102_xpath_submit : '//input[@id=(s-q)edit-submit(s-q)]'
+
+  103_xpath_value : '//input[@id=(s-q)edit-pass-pass1(s-q)](sep)A'
+  104_xpath_submit : '//input[@id=(s-q)edit-submit(s-q)]'
+
+  105_xpath_value : '//input[@id=(s-q)edit-pass-pass1(s-q)](sep)A'
+  106_xpath_value : '//input[@id=(s-q)edit-pass-pass2(s-q)](sep)A'
+  107_xpath_submit : '//input[@id=(s-q)edit-submit(s-q)]'
+
+  108_xpath_value : '//input[@id=(s-q)edit-pass-pass1(s-q)](sep)ABC12'
+  109_xpath_value : '//input[@id=(s-q)edit-pass-pass2(s-q)](sep)A'
+  110_xpath_submit : '//input[@id=(s-q)edit-submit(s-q)]'
+
+  111_xpath_value : '//input[@id=(s-q)edit-pass-pass1(s-q)](sep)ABC12'
+  112_xpath_value : '//input[@id=(s-q)edit-pass-pass2(s-q)](sep)ABC12'
+  113_xpath_submit : '//input[@id=(s-q)edit-submit(s-q)]'
+
+  114_xpath_value : '//input[@id=(s-q)edit-pass-pass1(s-q)](sep)ABC123'
+  115_xpath_value : '//input[@id=(s-q)edit-pass-pass2(s-q)](sep)ABC124'
+  116_xpath_submit : '//input[@id=(s-q)edit-submit(s-q)]'
+
+  117_xpath_value : '//input[@id=(s-q)edit-pass-pass1(s-q)](sep)ABC123'
+  118_xpath_value : '//input[@id=(s-q)edit-pass-pass2(s-q)](sep)ABC123'
+  119_xpath_submit : '//input[@id=(s-q)edit-submit(s-q)]'
+
+
+  # Put value at Do you agree with TERMS OF SERVICE at Issuer Registration
+  120_xpath_value : '//input[@id=(s-q)edit-pass-pass1(s-q)](sep)ABC123'
+  121_xpath_value : '//input[@id=(s-q)edit-pass-pass2(s-q)](sep)ABC123'
+  122_xpath_click : '//input[@id=(s-q)edit-agree-1(s-q)]'
+  123_xpath_submit : '//input[@id=(s-q)edit-submit(s-q)]'
+

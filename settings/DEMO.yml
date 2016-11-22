@@ -1,0 +1,7 @@
+'dev':
+  url: 'https://dev.demo.zacksws.com/'
+'stage':
+  url: 'https://stage.demo.zacksws.com/'
+'prod':
+  url: 'https://demo.zacksws.com/'
+  
